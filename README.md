@@ -45,6 +45,10 @@
  ### 1. 공지사항 조회
  
  #### 사이트 내 공지사항 게시판 페이지
+ 
+
+![공지사항 게시판](https://user-images.githubusercontent.com/104810523/175256261-88274a34-0088-4e69-94f9-bf5ff67c22ef.gif)
+
  + 구현 기능 설명
     + 공지사항 게시판 글 목록 조회
     + 페이징을 통해 게시글 목록 넘기기
@@ -52,33 +56,24 @@
     + 게시물 조회
     + 목록으로 이동
 
-
-
  ### 2. 공지사항 수정
  #### 공지사항 게시글 수정 페이지
+ 
+ ![공지사항 수정](https://user-images.githubusercontent.com/104810523/175256760-ae502b73-b793-4520-a282-f7f2ec47b84b.gif)
+
  + 구현 기능 설명
     + 게시글 수정 시, DB에 등록된 게시글 제목, 내용 불러옴.
     + 수정 버튼 클릭 시 수정한 게시글 상세조회로 이동하게 됩니다.
    
-![image](https://user-images.githubusercontent.com/104810523/174935520-31cfbe52-b04b-40fa-ac06-27e7c46ef237.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174935527-a39a7247-22e3-4af8-b7c7-831ddb8ad077.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174935539-c610b2ea-2c15-4928-b1c3-ff5708baa128.png)
-
 
  ### 3. 공지사항 삭제
  #### 공지사항 게시글 삭제 페이지
+ 
+ ![공지사항 삭제](https://user-images.githubusercontent.com/104810523/175257025-a698f925-d306-48b8-83da-45adf624ed80.gif)
+
  + 구현 기능 설명
-    + 삭제 버튼 클릭 시 비밀번호 판별을 하여 삭제 성공 및 실패 확인
+    + 삭제 버튼 클릭 게시물 삭제 
 
-![image](https://user-images.githubusercontent.com/104810523/174935881-69d32d5d-5beb-4444-9ccd-331dca127ce1.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174935905-ce2b8a09-30a4-4d34-bf12-1d0ffa620871.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174935853-afdc7d84-a873-468d-916c-d74901844fc0.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174935860-c2c41049-ed62-4401-adc8-1291f46563f2.png)
 
 -------------------------------------
 ## 스토어 게시판 
