@@ -80,45 +80,78 @@
 
 
 -------------------------------------
-## 스토어 게시판 
-### 1. 스토어 상품 조회
- #### 사이트 내 스토어 게시판 페이지
- + 구현 기능 설명
-    + 마켓 제품 목록 페이지 구현
-    + 수량에 따른 구매 페이지
-
-
-
-
-### 2. 스토어 장바구니 
-#### 장바구니 담기, 삭제 페이지
- + 구현 기능 설명
-    + 장바구니 목록 페이지
-    + 장바구니 담기 기능
-    + 장바구니 삭제 기능
-    + 로그아웃 상태에서 장바구니/주문하기 버튼 누르면 로그인 페이지로 이동
-
-
-## 회원관리 게시판
- ### 1. 회원가입
- 
+## 회원가입 및 로그인
+### 1. 회원가입
  #### 사이트 내 회원가입 페이지
+![회원가입](https://user-images.githubusercontent.com/104810523/176335393-d3bdfc9e-fd4a-4dfd-aafe-778cfca39d87.gif)
+#### 회원가입을 위한 메일 인증
+![회원가입메일인증](https://user-images.githubusercontent.com/104810523/176335413-b24cedf7-de35-45af-8004-9a59a77884c8.gif)
+#### 메일 인증 완료 후 로그인
+![회원가입후로그인](https://user-images.githubusercontent.com/104810523/176335422-9e5ad4bf-83c0-40a0-96d9-f625921ce1f5.gif)
+
  + 구현 기능 설명
-    + 아이디 중복 확인
-    + 우편번호 찾기
-    + 비밀번호 보안 단계별 확인
-    + 비밀번호 일치 여부 판별
-
-
-
+    + 아이디 중복 체크
+    + 비밀번호 정규표현식, 일치 여부 판별
+    + 다음 우편번호 API
+    + 비밀번호 암호화
+    + 메일 인증 후 회원가입 완료
 
 ### 2. 로그인
  
  #### 사이트 내 로그인 페이지
- + 구현 기능 설명
-    + 일반로그인, 카카오로그인, 네이버로그인
+ ![회원가입후로그인](https://user-images.githubusercontent.com/104810523/176335720-5c0d03b3-3a07-47fd-9286-5750438b10c5.gif)
+ #### 카카오 로그인
+![로그인](https://user-images.githubusercontent.com/104810523/176335734-683cf90f-8d61-4f60-9327-20765a3f988e.gif)
+#### 네이버 로그인
+![네이버로그인](https://user-images.githubusercontent.com/104810523/176335740-ef8359e8-6f92-41c2-8e90-3efe2128a66e.gif)
 
-![image](https://user-images.githubusercontent.com/104810523/176326845-4eb33085-d519-4ff3-b259-148057e254c7.png)
+### 3. 아이디, 비밀번호 찾기
+ #### SMS 인증으로 아이디 찾기
+ #### 인증번호 확인 후 아이디 찾기 완료
+![아이디찾기완료](https://user-images.githubusercontent.com/104810523/176338796-25d914b3-1abb-44ca-bd6b-a651ea4a7c7d.gif)
+
+#### 메일 인증으로 비밃번호 찾기
+![비밀번호찾기](https://user-images.githubusercontent.com/104810523/176338835-e6511276-416a-4242-9b6c-6655644a9f3e.gif)
+#### 메일 인증 완료 
+ ![비밀번호찾기메일인증](https://user-images.githubusercontent.com/104810523/176338891-4591e183-227b-4a73-9fc1-528ed36775e9.gif)
+#### 인증 완료 후 비밀번호 변경
+![비밀번호변경](https://user-images.githubusercontent.com/104810523/176338922-6b4ff867-7a91-4be2-923b-81b5d8f498bd.gif)
+#### 비밀번호 변경 후 로그인
+![비밀번호변경후로그인](https://user-images.githubusercontent.com/104810523/176338949-34acdd08-fa4f-4db3-a259-bcf25d8290f7.gif)
+
+ 
+ + 구현 기능 설명
+    + 일반로그인
+    + 카카오로그인
+    + 네이버로그인
+    + 아이디 찾기를 위한 SMS 인증
+    + 비밀번호 찾기를 위한 SMS, 메일 인증
+----------------------------------------------------------------
+
+## 상품 리스트 및 결제
+### 1. 상품 메인 페이지
+#### 상품 페이징 처리
+![페이징처리](https://user-images.githubusercontent.com/104810523/176339625-b4c34c79-1965-49fc-9805-9bf38671aa74.gif)
+#### 최신순, 평점순, 낮은 가격순, 높은 가격순으로 상품 정렬
+![상품리스트](https://user-images.githubusercontent.com/104810523/176339105-2fde425f-be68-420d-a129-c75786280061.gif)
+
+### 2. 상품 상세 페이지
+#### 리뷰 평점, 신상품, beat상품 아이콘
+![image](https://user-images.githubusercontent.com/104810523/176340599-6760c52a-62a1-4053-a4da-c834c138c9f3.png)
+#### 장바구니 담기
+![장바구니담기](https://user-images.githubusercontent.com/104810523/176340736-a2b8b226-1a8d-4b26-a81a-4ce1da7e00d2.gif)
+#### 즉시 주문하기 
+![주문하기이동](https://user-images.githubusercontent.com/104810523/176340773-f6de2b85-d5e1-4e63-bd46-e9ff14eeb653.gif)
+#### 주문 완료 후 마이페이지 주문 조회로 이동
+![일반결제](https://user-images.githubusercontent.com/104810523/176340811-17d9c0f4-7337-4cd5-9d28-ac097b557a4d.gif)
+
+ + 구현 기능 설명
+    + 상품 정렬 (최신순, 평점순, 낮은 가격순, 높은 가격순)
+    + 수량 변경 후 장바구니 담기
+    + 즉시 주문
+    + 로그아웃 상태에서 장바구니/주문하기 버튼 누르면 로그인 페이지로 이동
+
+
 
 
 
