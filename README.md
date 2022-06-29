@@ -7,10 +7,10 @@
   1. [개요](#-개요)
   2. [내용](#-내용)
   3. [구현 기능](#-구현-기능)
-      + [공지사항 게시판](https://github.com/hhje0232/Market/edit/main/README.md#%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD-%EA%B2%8C%EC%8B%9C%ED%8C%90)
-      + [스토어 게시판](https://github.com/hhje0232/Market/edit/main/README.md#%EC%8A%A4%ED%86%A0%EC%96%B4-%EA%B2%8C%EC%8B%9C%ED%8C%90)
-      + [회원관리 게시판](https://github.com/hhje0232/Market/edit/main/README.md#%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC-%EA%B2%8C%EC%8B%9C%ED%8C%90)
-      + [오시는길 게시판](https://github.com/hhje0232/Market/edit/main/README.md#%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8-%EA%B2%8C%EC%8B%9C%ED%8C%90)
+      + [공지사항 게시판]()
+      + [스토어 게시판]()
+      + [회원관리 게시판]()
+      + [오시는길 게시판]()
 
 </div>
 </details>
@@ -83,10 +83,6 @@
     + 마켓 제품 목록 페이지 구현
     + 수량에 따른 구매 페이지
 
-![image](https://user-images.githubusercontent.com/104810523/174937033-437bce97-76dc-4543-87cd-40f3b1d1634e.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937040-c876affc-5f14-46fd-a2a8-083071d9e406.png)
-
 
 
 
@@ -98,13 +94,6 @@
     + 장바구니 삭제 기능
     + 로그아웃 상태에서 장바구니/주문하기 버튼 누르면 로그인 페이지로 이동
 
-![image](https://user-images.githubusercontent.com/104810523/174937044-0e2bbd6c-9cde-435c-a553-57a0a0f97656.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937056-36b2ab4c-b960-4696-9873-bb33bebc5eab.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937062-81407353-cb46-499c-bc4b-d90fda2c1a44.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937069-fa53c112-8ee8-407e-a4cf-424744d5ea5a.png)
 
 ## 회원관리 게시판
  ### 1. 회원가입
@@ -117,36 +106,22 @@
     + 비밀번호 일치 여부 판별
 
 
-![image](https://user-images.githubusercontent.com/104810523/174937912-83ac9b6d-b4a2-4b10-869e-150315310a49.png)
 
-![image](https://user-images.githubusercontent.com/104810523/174937921-3885fac6-3078-48e8-ae0a-e90cb79dc767.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937930-5bf661ae-f20e-4ae8-8210-ac95eec0deaf.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937935-2f0a6160-d3a5-4246-839b-9e509da0852b.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174937943-6f67a80c-081a-4a28-875a-8b8e4e3af5e5.png)
 
 ### 2. 로그인
  
  #### 사이트 내 로그인 페이지
  + 구현 기능 설명
     + 로그인 실패시 로그인 실패창 
- 
-![image](https://user-images.githubusercontent.com/104810523/174938057-0c5351b6-d382-489b-a618-c209241dc223.png)
 
-![image](https://user-images.githubusercontent.com/104810523/174938765-7b786e12-626e-4047-9f53-59253476014a.png)
 
-![image](https://user-images.githubusercontent.com/104810523/174938770-605964b4-b935-4943-acc5-8363f11a5f6b.png)
-
-![image](https://user-images.githubusercontent.com/104810523/174938772-8639e1e3-583a-45b7-991d-07b8a13524b8.png)
 
 ## 오시는길 게시판
  ### 지도
  + 구현 기능 설명
     + 구글 API 로 위치 정보 출력
 
-![image](https://user-images.githubusercontent.com/104810523/174938964-69f8822a-302a-4505-8286-53e732e0c8bc.png)
+
 
 ---------------------------------------
 지금까지 읽어주셔서 감사합니다 :)
