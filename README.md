@@ -17,19 +17,18 @@
 
 # 📝 개요
 + 프로젝트 명 : Almeal
-
 + 일정 : 2022년 05월 ~ 2022년 06월
-
-+ 개발 목적 : 1인 가구를 위한 주류와 밀키트 구독 사이트
-
++ 인력 구성 : BE 5명 / FE 1명
++ 프로젝트 목적 : 팀 프로젝트로서 Spring과 MyBatis 활용능력을 기르기 위한 프로젝트
++ 프로젝트 내용 : 구독패키지와 일반 상품을 판매하는 웹페이지
 + 개발 환경
   + Server : Apache-tomcat-8.5
   + Java EE IDE : Eclipse
   + Database : Oracle SQL Developer
-  + Programming Language : JAVA, CSS, JavaScript, JSP, SQL
+  + Programming Language : JAVA, CSS, JavaScript, SQL
   + Framework/flatform : Spring, mybatis, jQuery 3.5.1, Bootstrap v5
   + API : Kakao Login, Naver Login, CoolSMS
-  + Version management : Git
+  + Version management : (https://github.com/wurstel/ITWill_team_Spring.git)
   
 
 # 📝 내용
@@ -42,6 +41,7 @@
 
 # 📝 ERD
 ## 상품과 회원을 기준으로 DB 설계
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/104810523/176326276-4815f960-7074-4d64-9d3f-80267836eaf6.png">
 
 
 # 📝 구현 기능
